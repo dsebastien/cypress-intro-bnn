@@ -1,1 +1,6 @@
-{}
+{
+  "__why": "To avoid the error with mixed content when clicking on the Website link. NEVER USED IN PRODUCTION :p",
+  "chromeWebSecurity": false,
+  "__whyThis": "Enable creation of videos for test runs. Only when executed through cypress run",
+  "video": true
+}

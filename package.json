@@ -5,7 +5,8 @@
   "author": "Davy Engone <4896002+davyengone@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
-    "start": "cypress open"
+    "start": "cypress open",
+    "cypress:run": "cypress run"
   },
   "dependencies": {
     "cypress": "^6.2.1"

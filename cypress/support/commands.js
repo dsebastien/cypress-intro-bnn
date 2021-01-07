@@ -23,3 +23,10 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
+
+/**
+ * Custom command
+ */
+Cypress.Commands.add("getRightHandSideLinks", () => {
+    return cy.get(".IzNS7c.duf-h").children().find(".ab_button");
+});
